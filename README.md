@@ -16,4 +16,4 @@
 - pip install langchain-openai 
 
 #### Create a .env file under the project directory and add the following API KEYS:
-> OPENAI_API_KEY = '<Paste your OpenAI API Key>'
+> OPENAI_API_KEY = '\<Paste your OpenAI API Key>\'
