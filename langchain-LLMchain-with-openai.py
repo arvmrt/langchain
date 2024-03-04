@@ -17,7 +17,7 @@ llm = ChatOpenAI(
 
 # Create prompt template
 template = "Who is the {sequence} President of {country}?"
-prompt = PromptTemplate(template=template,input_variables=['k','this'])
+prompt = PromptTemplate(template=template,input_variables=['sequence','country'])
 
 # Create LLM Chain
 chain = LLMChain(llm=llm,prompt=prompt)
