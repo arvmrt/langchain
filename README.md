@@ -1,6 +1,6 @@
 # Langchain with OpenAI GPT
 
-## Environment Setup
+### Environment Setup
 - RHEL8/CENTOS8
 - Python 3.12.1
 
