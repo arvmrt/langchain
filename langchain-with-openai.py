@@ -1,14 +1,12 @@
 # Import Liabraries
 import os
+from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
 from langchain_core.messages import HumanMessage, SystemMessage
 
-'''
-Setup a environment variable on Linux Server with name OPENAI_API_KEY and save the API key. Make sure to run source command to enable the variable.
-# vi .bashrc
-export OPENAI_API_KEY="<Input your API Key Here>"  #Add this line at end of file and save file.
-# source .bashrc
-'''
+# Load OpenAI API Key from .env file
+load_dotenv()
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 # Initialize OpenAI Chat Model
 chat = ChatOpenAI(
