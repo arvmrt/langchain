@@ -20,6 +20,8 @@ source myenv/bin/activate
 ```
 pip install langchain
 pip install langchain-openai
+pip install langchain-google-genai
+pip install pillow
 pip install python-dotenv
 ```
 
