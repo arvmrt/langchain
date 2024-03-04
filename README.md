@@ -19,10 +19,12 @@ source myenv/bin/activate
 #### Install Packages 
 ```
 pip install langchain
-pip install langchain-openai 
+pip install langchain-openai
+pip install python-dotenv
 ```
 
 #### Create a ".env" file under the project directory and add the following API KEYS:
 ```
 OPENAI_API_KEY = '<Paste your OpenAI API Key>'
+GOOGLE_API_KEY = '<Paste your OpenAI API Key>'
 ```
